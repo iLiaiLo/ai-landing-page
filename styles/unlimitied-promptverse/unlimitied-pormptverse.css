@@ -1,0 +1,50 @@
+.unlimitied-promptverse-container {
+  margin-top: 244px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unlimitied-promptverse-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 58px;
+}
+
+.unlimitied-promptverse-content h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+
+  font-size: 48px;
+
+  line-height: 74px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.unlimitied-promptverse-content button {
+  border-radius: 55px;
+  padding: 14px 34px;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.unlimitied-promptverse-content button:hover .button-arrow {
+  width: 24px;
+}

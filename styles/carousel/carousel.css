@@ -1,0 +1,114 @@
+.carousel-content {
+  width: 100%;
+  margin-top: 244px;
+  display: flex;
+  flex-direction: column;
+  gap: 124px;
+}
+
+.carousel-header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 833px;
+}
+
+.carousel-header h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.carousel-header-description {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28.8px;
+  letter-spacing: -1.8%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-carousel-container {
+  height: 398px;
+}
+
+.carousel-container {
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  width: max-content;
+  height: 114px;
+  gap: 30px;
+}
+
+.carousel-container:nth-child(1) .carousel-track,
+.carousel-container:nth-child(3) .carousel-track {
+  animation: move_left 10s linear infinite;
+}
+
+.carousel-container:nth-child(2) .carousel-track {
+  animation: move_right 10s linear infinite;
+}
+.carousel-card {
+  border-radius: 4px;
+  padding: 27px 26px;
+  background-color: #0e0e0e;
+  display: flex;
+  flex-shrink: 0;
+  gap: 10px;
+}
+
+.carousel-card-content {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.carousel-card-content > span:first-child {
+  color: #ffffff;
+}
+
+.carousel-card-content > span:last-child {
+  color: #1d73f3;
+}
+
+.upper-right-arrow {
+  display: inline-block;
+  background-image: url(../../images/mdi_arrow-up.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 31px;
+  height: 31px;
+}
+
+@keyframes move_left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 15px));
+  }
+}
+
+@keyframes move_right {
+  from {
+    transform: translateX(calc(-50% - 15px));
+  }
+  to {
+    transform: translateX(0);
+  }
+}

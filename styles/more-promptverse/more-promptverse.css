@@ -1,0 +1,67 @@
+.more-promptverse-features-container {
+  height: 817px;
+  margin-top: 244px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.more-features {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 86.4px;
+  letter-spacing: -1.82%;
+  vertical-align: middle;
+  color: #ffffff80;
+  word-break: keep-all;
+}
+
+.promptverse-ai-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 86.4px;
+  letter-spacing: -1.82%;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.more-promptverse-info {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 61px;
+}
+.suggestions-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 157px;
+  grid-row-gap: 60px;
+  max-width: 1309px;
+}
+
+.suggestions-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.little-header {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.8px;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.content-text {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28.8px;
+  letter-spacing: -0.8px;
+  vertical-align: middle;
+  color: #828282;
+}

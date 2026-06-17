@@ -1,0 +1,95 @@
+.promptverse-features-container {
+  position: absolute;
+  top: 2271px;
+  left: 305px;
+  right: 305px;
+}
+
+.tranding-prompts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 124px;
+}
+
+.trending-prompts-header {
+  width: 833px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+}
+
+.trending-prompts-header h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+
+  font-size: 48px;
+
+  line-height: 56px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.trending-prompts-header p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28.8px;
+  letter-spacing: -1.8%;
+  text-align: center;
+  color: #ffffff99;
+}
+.trending-prompts-buttons-container {
+  display: flex;
+  gap: 28px;
+}
+
+.trending-prompts-buttons-container > button:first-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+
+  border-radius: 55px;
+  border-width: 1.4px;
+  padding: 14px 34px;
+  border: 1.4px solid #ffffff;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trending-prompts-buttons-container button:last-child {
+  border-radius: 55px;
+  padding: 14px 34px;
+  background-color: #ffffff;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #000000;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.trending-prompts-buttons-container button:last-child:hover .button-arrow {
+  width: 24px;
+}
+
+.new-chat-container img {
+  width: 100%;
+  height: 971px;
+  /* max-width: 1309px; */
+}

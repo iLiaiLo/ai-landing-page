@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.button-arrow {
+  background-image: url(../images/majesticons_arrow-up-line.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 0;
+  display: inline-block;
+  height: 20px;
+  transition: 0.6s ease-in-out;
+}

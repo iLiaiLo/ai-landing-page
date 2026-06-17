@@ -1,0 +1,65 @@
+.images-like {
+  margin-top: 244px;
+  display: flex;
+  flex-direction: column;
+  gap: 124px;
+}
+.images-like > header {
+  margin: 0 auto;
+  width: 833px;
+}
+
+.images-like header h1 {
+  font-family: "Manrope", sans-serif;
+  color: #ffffff;
+
+  font-weight: 500;
+
+  font-size: 48px;
+
+  line-height: 56px;
+  letter-spacing: -1%;
+  text-align: center;
+}
+
+.images-like header p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #ffffff99;
+
+  font-size: 16px;
+
+  line-height: 28.8px;
+  letter-spacing: -1.8%;
+  text-align: center;
+  margin-top: 28px;
+}
+
+.images-container {
+  border-radius: 8px;
+  padding: 44px;
+  border-radius: 7px;
+  background-color: #0e0e0e;
+  max-width: 1308px;
+}
+
+.images {
+  display: flex;
+  gap: 18px;
+}
+
+.big-pic img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.small-pics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 18px;
+}
+.small-pics img {
+  width: 100%;
+  border-radius: 5px;
+}

@@ -1,0 +1,105 @@
+.audio-music {
+  margin-top: 244px;
+  display: flex;
+  flex-direction: column;
+  gap: 124px;
+}
+
+.audio-music header {
+  width: 794px;
+  margin: 0 auto;
+}
+
+.audio-music header h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 53.43px;
+  letter-spacing: -1%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.audio-music header p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28.8px;
+  letter-spacing: -1.8%;
+  text-align: center;
+  color: #ffffff99;
+  margin-top: 28px;
+}
+
+.ai-voice-container {
+  padding: 43px;
+  background-color: #0e0e0e;
+  max-width: 1309px;
+}
+
+.ai-voice-content {
+  display: flex;
+  gap: 18px;
+}
+.ai-voice-content div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ai-voice-content div:first-child h1 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 36.36px;
+  line-height: 50px;
+  letter-spacing: -1%;
+  color: #ffffff;
+}
+
+.ai-voice-content div:first-child p {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28.8px;
+  letter-spacing: -1%;
+  color: #ffffff99;
+}
+
+.ai-voice-content div:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.ai-voice-content div:last-child button {
+  border-radius: 35.45px;
+  padding: 14px 34px;
+  border: 0.91px solid #ffffff;
+  background-color: transparent;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+
+  font-size: 18.18px;
+  line-height: 100%;
+  letter-spacing: -1%;
+  color: #ffffff;
+}
+
+.ai-voice-content div:last-child button:last-child {
+  border-radius: 55px;
+  padding: 14px 34;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.ai-voice-content div:last-child button:last-child:hover .button-arrow {
+  width: 24px;
+}
